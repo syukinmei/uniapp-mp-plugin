@@ -1,0 +1,18 @@
+{
+    // #ifdef MP-WEIXIN
+    "pages": {
+      // #endif
+      // #ifdef MP-ALIPAY
+    "publicPages": {
+      // #endif
+      "plugin-page": "pages/index/index"
+    },
+    // #ifdef MP-ALIPAY
+    "pages": ["pages/index/index"],
+    // #endif
+    "publicComponents": {
+      "plugin-component": "components/plugin-component"
+    },
+    "main": "index.js"
+  }
+  

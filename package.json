@@ -1,0 +1,14 @@
+{
+    "name": "template-uniapp-mp-plugin",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "serve:plugin": "cd plugin && pnpm serve:mp-weixin",
+        "serve:mp-weixin": "cd miniprogram && pnpm dev:mp-weixin",
+        "build": "cd plugin && pnpm build:mp-weixin"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
